@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 .icon{
     height: 30px;
     width: 30px;
@@ -46,4 +47,28 @@
     width: 100%;
     height: 500px;
     object-fit: cover;
+}
+
+.views-text{
+    font-size: 0.8rem
+}
+
+.bg-gray{
+    background: lightgray;
+}
+
+.final-info-text{
+    font-size: 0.8rem;
+}
+
+.final-info-container{
+   display: flex;
+   justify-content: space-between
+}
+
+.final-info-text-container{
+   width: 60%
+}
+.text-list{
+    font-size: 1.2rem
 }
