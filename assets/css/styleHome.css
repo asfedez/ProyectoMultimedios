@@ -28,9 +28,6 @@
     object-fit: cover;
 }
 
-/* .navbar-brand{
-    width: 70%;
-} */
 
 #myNav .my-input{
     width: 110%;
@@ -130,6 +127,16 @@
     display: none;
 }
 
+/*
+*
+*
+*
+*
+*
+*
+*
+*/
+
 @media (min-width: 1200px) {
     
     #options{
@@ -152,8 +159,12 @@
         display: block;
     } 
     
-    #options{
+    #options-xl{
         border: solid 1px black
+    }
+
+    .aling-right{
+    
     }
      
     .views-text{
