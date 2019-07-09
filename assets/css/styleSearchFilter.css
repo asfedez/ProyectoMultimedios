@@ -3,13 +3,13 @@
 }
 
 .menu-side {
-    background-color: #00BCD4;
+    background-color: #93F3F4;
     color: white;
     position: fixed;
     top: 0;
     right: 0px;
     width: 20%;
-    height: 200px;
+    height: 700px;
     margin: 0;
     padding: 0;
     margin-top: 2rem;
@@ -72,5 +72,24 @@
     }
     .views-text {
         font-size: 0.7rem
+    }
+    .time {
+        margin-top: 10%;
+        width: 100%;
+    }
+    .menu-side {
+        background-color: #93F3F4;
+        color: white;
+        position: fixed;
+        top: 0;
+        right: 0px;
+        width: 20%;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .DatosMenu {
+        margin-left: 20%;
     }
 }
