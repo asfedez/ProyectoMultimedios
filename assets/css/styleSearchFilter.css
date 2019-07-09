@@ -65,6 +65,10 @@
     font-size: 0.8rem
 }
 
+.DatosMenu {
+    margin-left: 10%;
+}
+
 @media (min-width: 1200px) {
     .grid-sizer,
     .grid-item {
@@ -78,7 +82,7 @@
         width: 100%;
     }
     .menu-side {
-        background-color: #93F3F4;
+        background-color: #FFA07A;
         color: white;
         position: fixed;
         top: 0;
@@ -91,5 +95,8 @@
     }
     .DatosMenu {
         margin-left: 20%;
+    }
+    .personalizadoTex {
+        margin-top: 2rem;
     }
 }
