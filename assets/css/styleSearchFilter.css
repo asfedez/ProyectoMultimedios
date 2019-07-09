@@ -3,8 +3,8 @@
 }
 
 .menu-side {
-    background-color: #93F3F4;
-    color: white;
+    background-color: #fee9cc;
+    color: black;
     position: fixed;
     top: 0;
     right: 0px;
@@ -17,6 +17,12 @@
 
 .ContenedorPincipal {
     width: 80%;
+}
+
+.sort {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 23rem;
 }
 
 .searchMenu {
@@ -38,6 +44,11 @@
 .contenedorDatos {
     width: 95%;
     margin: 0 auto;
+}
+
+#options {
+    border-radius: 25px;
+    font-size: 0.6rem;
 }
 
 .grid-item {
@@ -69,6 +80,15 @@
     margin-left: 10%;
 }
 
+.personalizadoTex {
+    padding-top: 2%;
+}
+
+.btnColor {
+    color: #bfe9ff;
+    ;
+}
+
 @media (min-width: 1200px) {
     .grid-sizer,
     .grid-item {
@@ -82,8 +102,8 @@
         width: 100%;
     }
     .menu-side {
-        background-color: #FFA07A;
-        color: white;
+        background-color: #fee9cc;
+        color: black;
         position: fixed;
         top: 0;
         right: 0px;
@@ -98,5 +118,17 @@
     }
     .personalizadoTex {
         margin-top: 2rem;
+    }
+    #options {
+        border-radius: 25px;
+        font-size: 1rem;
+    }
+    .sort {
+        display: inline-block;
+        margin-top: 1rem;
+        margin-left: 60rem;
+    }
+    .containerSerch {
+        margin-left: 40rem;
     }
 }
