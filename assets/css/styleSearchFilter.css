@@ -49,6 +49,7 @@
 #options {
     border-radius: 25px;
     font-size: 0.6rem;
+    width: 90%;
 }
 
 .grid-item {
@@ -86,7 +87,10 @@
 
 .btnColor {
     color: #bfe9ff;
-    ;
+}
+
+#categories{
+    background: red;
 }
 
 @media (min-width: 1200px) {
