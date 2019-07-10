@@ -1,0 +1,22 @@
+input{
+    text-align: center;
+}
+
+div img{
+    width: 50%; 
+    height: 50px;
+    object-fit: fill;
+}
+
+.card-login{
+    width: 90%;
+}
+
+@media (min-width: 1200px) {
+
+    .card-login{
+        width: 50%;
+    }
+
+
+}

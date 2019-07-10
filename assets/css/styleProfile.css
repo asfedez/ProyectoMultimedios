@@ -1,0 +1,276 @@
+@media (max-width: 999px) {
+    #contentImg{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-img{
+        width: 80%;
+        object-fit: fill;
+        
+    }
+    
+    .ingredients-list{
+        list-style: none;
+        padding: 0;
+    }
+    
+    .ingredients-container{
+        margin-top: 2rem;
+    }
+    
+    .ingredients-list li{
+        margin-top: 1rem;
+    }
+    
+    .text-small{
+        font-size: .9rem;
+    }
+    
+    .tag{
+        border-radius: 15px;
+        margin-top: 1rem;
+        padding: 0 2rem 0 2rem;
+    }
+    
+    .social-networks{
+        margin-top: 1rem;
+    }
+    
+    #view-info{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        width: 90%;
+    }
+    
+    #items-list{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .items-list{
+        list-style: none;
+        padding: 0;
+    }
+    
+    .items-list li{
+    
+        padding: 0.8rem 2rem 0.8rem 2rem;
+    }
+    
+    .li1{
+        border-left: solid black 1px;
+        border-bottom: solid black 1px;
+        border-top: solid black 1px;
+    }
+    
+    .li2{
+        border-right: solid black 1px;
+        border-bottom: solid black 1px;
+        border-top: solid black 1px;
+    }
+    
+    
+    .bg-pink{
+        background: #F19CA2;
+    }
+    
+    .bg-gray{
+        background: lightgray;
+    }
+    
+    .related{
+        text-align: center;
+    }
+    
+    .related img{
+        width: 60%;
+        margin-top: 1rem;
+    }
+    
+    .circle-cake{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: solid black 1px;
+    }
+    
+    .media-body{
+        margin-left: 1rem;
+    }
+    
+    .date-info{
+        margin-left: 1rem;
+    }
+    
+    .title-recent{
+        margin-top: 1rem;
+    }
+    
+}
+
+
+/*******************************
+*
+*
+*
+*
+*
+*
+*
+**************************/
+
+@media (min-width: 1000px) {
+
+    #contentImg{
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    .img-container{
+        width: 40%;
+        margin-left: 2rem;
+    }
+
+    .profile-img{
+        width: 100%;
+        object-fit: fill
+    }
+
+    .ingredients-container{
+        width: 30%;
+        margin-left: 1rem;
+    }
+    
+    .ingredients-list{
+        list-style: none;
+        padding-left: 1rem;
+        
+    }
+    
+    .ingredients-list li{
+        margin-top: 1rem;
+    }
+
+    .more-info{
+        
+        padding-left: 1rem;
+    }
+    
+    .text-small{
+        font-size: 1rem;
+    }
+
+    .tags{
+        width: 170%;
+    }
+    
+    .tag{
+        border-radius: 15px;
+        margin-top: 1rem;
+        padding: 0 2rem 0 2rem;
+    }
+    
+    .social-networks{
+        margin-top: 1rem;
+        
+    }
+
+    .like-info{
+        width: 20%;
+        height: 100px;
+        margin-top: 20%;
+    }
+    
+    #view-info{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+
+   
+    
+    #items-list{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .items-list{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+    }
+    
+    .items-list li{
+    
+        padding: 0.8rem 2rem 0.8rem 2rem;
+    }
+    
+    .li1-xl{
+        border-left: solid black 1px;
+        border-right: solid black 1px;
+        border-top: solid black 1px;
+    }
+    
+    .li2-xl{
+        border-right: solid black 1px;
+        border-bottom: solid black 1px;
+        border-left: solid black 1px;
+
+    }
+    
+    .bg-pink{
+        background: #F19CA2;
+    }
+    
+    .bg-gray{
+        background: lightgray;
+    }
+    
+    .related{
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    #related-imgs{
+        margin-top: 1rem;
+    }
+    
+    .related img{
+        width: calc(100%/5);
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .circle-cake{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: solid black 1px;
+    }
+    
+    .media-body{
+        margin-left: 1rem;
+    }
+    
+    .date-info{
+        margin-left: 1rem;
+    }
+    
+    .title-recent{
+        margin-top: 1rem;
+    }
+
+}
